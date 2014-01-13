@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Navigation | apad201</title>
+		<meta charset="UTF-8" />
+        <meta name="description" content="Animated Text and Icon Menu with jQuery" />
+        <meta name="keywords" content="jquery, menu, navigation, sliding, animation, icon, apad201, navigation, minecraft, gaming, banners, websites," />
+		<meta name="author" content="Codrops and apad201" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/stimenu.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Wire+One&v1' rel='stylesheet' type='text/css' />
+		<script src="js/modernizr.custom.63321.js"></script>
+    </head>
+    <body>
+		<div class="container">
+		<center>
+			<h1><strong>Navigation</strong> for apad201's Websites<span></span></h1>
+			<h4><span><strong>Access</strong> all of apad201's websites and services from here!</span></h4>
+			</center>
+			<ul id="sti-menu" class="sti-menu">
+				<li data-hovercolor="#6600FF">
+					<a href="http://www.apad201.weebly.com/">
+						<h2 data-type="mText" class="sti-item">Home</h2>
+						<h3 data-type="sText" class="sti-item"><strong>The</strong> Home of apad201</h3>
+						<span data-type="icon" class="sti-icon sti-icon-care sti-item"></span>
+					</a>
+				</li>
+				<li data-hovercolor="#ff395e">
+					<a href="http://www.apad201blog.wordpress.com/">
+						<h2 data-type="mText" class="sti-item">Blog</h2>
+						<h3 data-type="sText" class="sti-item"><strong>The</strong> apad021 News Feed</h3>
+						<span data-type="icon" class="sti-icon sti-icon-alternative sti-item"></span>
+					</a>
+				</li>
+				<li data-hovercolor="#57e676">
+					<a href="http://www.apad201protal.webs.com/">
+						<h2 data-type="mText" class="sti-item">Premium Portal</h2>
+						<h3 data-type="sText" class="sti-item"><strong>Pro</strong> isn't Always Paid</h3>
+						<span data-type="icon" class="sti-icon sti-icon-info sti-item"></span>
+					</a>
+				</li>
+				<li data-hovercolor="#5B59BA">
+					<a href="http://www.apad201.weebly.com/banners.html">
+						<h2 data-type="mText" class="sti-item">Banners</h2>
+						<h3 data-type="sText" class="sti-item"><strong>Absolutely</strong> Beautiful</h3>
+						<span data-type="icon" class="sti-icon sti-icon-family sti-item"></span>
+					</a>
+				</li>
+				<li data-hovercolor="#ffdd3f">
+					<a href="http://www.apad201.weebly.com/video-intros.html">
+						<h2 data-type="mText" class="sti-item">Video Intros</h2>
+						<h3 data-type="sText" class="sti-item"><strong>Coming</strong> Soon!</h3>
+						<span data-type="icon" class="sti-icon sti-icon-technology sti-item"></span>
+					</a>
+				</li>
+			</ul>
+			<div class="footer">
+				<a href="http://www.apad201.weebly.com/"><span>&laquo; This </span>is part of apad201's websites!</a>
+				<span class="right_ab">
+					<a href="http://tympanus.net/codrops/" target="_blank"><strong>Adapted</strong> from Codrops example.</a>
+					<a href="http://tympanus.net/codrops/2011/07/12/animated-text-and-icon-menu/"><strong>see</strong> it here!</a>
+				</span>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.iconmenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#sti-menu').iconmenu();
+			});
+		</script>
+		<br>
+		<br>
+		<center><h1><strong>Connect</strong> With apad201!</h1></center>
+		<div class="fleft">
+					<select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+						<option value="-1" selected>Choose your favorite animal</option>
+						<option value="1" >Monkey</option>
+						<option value="2" >Bear</option>
+						<option value="3" >Squirrel</option>
+						<option value="4" >Elephant</option>
+					</select>
+				</div>
+			</section>
+		</div><!-- /container -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.dropdown.js"></script>
+		<script type="text/javascript">
+			
+			$( function() {
+				
+				$( '#cd-dropdown' ).dropdown( {
+					gutter : 5
+				} );
+
+			});
+
+		</script>
+    </body>
+</html>
